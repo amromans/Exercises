@@ -1,0 +1,102 @@
+<DOCTYPE html>
+  <html lang "en">
+  <head></head>
+<h1> Header </h1>
+<body>
+<p>Thhis is a Paragraph. It is a child of the body element.</p>
+
+<!--Hierarchy-->
+<!--Child elements inherit behavior and styling from their parents-->
+<div>
+    <p>This paragraph is a child of div and a grandchild of the body element</p>
+    <h1>
+        Sibling to p, but also grandchild of body
+    </h1>
+    <p>Sibling to h1, but also grandchild of the body</p>
+</div>
+
+<!---Headings-->
+<h1>Used for main headings. All other smaller headings are used for subheadings.</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+
+<!---Divs (Division)-->
+<!---or a container that divides the page into sections. 
+    These sections are very useful for grouping elements in your HTML together.-->
+<div>
+    <h1>Why do we use divs?</h1>
+    <p>They are great for grouping elements so that we can apply styles to certain elements</p>
+</div>
+<!--- Attributes -->
+<!--- Attributes are content added to the opening tag of an element 
+    and can be used in several different ways, from providing information to changing styling.-->
+<div id="intro">
+    <h1>Introduction</h1>
+</div>
+
+<!--Displaying Text-->
+
+<div>
+    <h1>Displaying text</h1>
+
+</div>
+<div>
+    <p>Paragraphs contain a block of plain text.</p>
+    <span>contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.</span>
+</div>
+
+<!--Styling Text-->
+<!--You can also style text using HTML tags. The <em> tag emphasizes text, while the <strong> tag highlights important text.-->
+
+<p><strong>'Strong' will bold your words</strong></p>
+<p><em>'Em' is italics</em></p>
+
+<!--Line breaks-->
+
+<br>
+
+<!--Unordered Lists-->
+<!--you can use an unordered list tag (<ul>) to create a list of items in no particular order. 
+    An unordered list outlines individual list items with a bullet point. -->
+<!--Individual list items must be added to the unordered list using the <li> tag. 
+    The <li> or list item tag is used to describe an item in a list.-->
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<!--Ordered Lists-->
+<!--They are useful when you need to list different steps in a process or rank items for first to last.
+You can create the ordered list with the <ol> tag and then add individual list items to the list using <li> tags.-->
+
+<ol>
+    <li>This First</li>
+    <li>This Second</li>
+    <li>This Last</li>
+</ol>
+
+<!--Images-->
+<!--The <img> tag allows you to add an image to a web page. Most elements require both opening and closing tags, but the <img> tag is a self-closing tag. -->
+
+<img src="image-location.jpg"/>
+<!--The <img> tag has a required attribute called src. The src attribute must be set to the image’s source, or the location of the image. 
+    In this case, the value of src must be the uniform resource locator (URL) of the image. A URL is the web address or local address where a file is stored.-->
+
+<!--Image Alts-->
+<!--The alt attribute, which means alternative text, brings meaning to the images on our sites. The alt attribute can be added to the image tag just like the src attribute. 
+    The value of alt should be a description of the image.-->
+<img src="#" alt="This is the description of the image"/>
+
+<!--Videos-->
+<video src="myVideo.mp4" width="320" height="240" controls>
+    Video not supported
+</video>
+
+
+
+
+
+</body>
+</DOCTYPE>
